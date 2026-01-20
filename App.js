@@ -20,10 +20,6 @@ export default function App() {
   const [loaded, error] = useFonts({
     "Inter-Regular": require("./assets/fonts/Inter-Regular.ttf"),
     "Inter-Bold": require("./assets/fonts/Inter-Bold.ttf"),
-    "GoogleSans-Regular": require("./assets/fonts/GoogleSans-Regular.ttf"),
-    "GoogleSans-Bold": require("./assets/fonts/GoogleSans-SemiBold.ttf"),
-    "GoogleSans_17pt-Regular": require("./assets/fonts/GoogleSans_17pt-Regular.ttf"),
-    "GoogleSans_17pt-Bold": require("./assets/fonts/GoogleSans_17pt-SemiBold.ttf")
   })
 
   useEffect(() => {
