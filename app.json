@@ -1,0 +1,74 @@
+{
+  "expo": {
+    "name": "Notebook",
+    "slug": "Notebook",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "userInterfaceStyle": "dark",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#0f172a",
+      "dark": {
+        "image": "./assets/images/splash-icon.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#0f172a"
+      }
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.udayrao.notebook",
+      "icon": "./assets/images/icon.png",
+      "splash": {
+        "image": "./assets/images/splash-icon.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#0f172a",
+        "dark": {
+          "image": "./assets/images/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#0f172a"
+        }
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#0f172a",
+        "monochromeImage": "./assets/images/icon.png"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.udayrao.notebook",
+      "icon": "./assets/images/icon.png",
+      "splash": {
+        "image": "./assets/images/splash-icon.png",
+        "resizeMode": "contain",
+        "backgroundColor": "#0f172a",
+        "dark": {
+          "image": "./assets/images/splash-icon.png",
+          "resizeMode": "contain",
+          "backgroundColor": "#0f172a"
+        }
+      }
+    },
+    "web": {
+      "favicon": "./assets/images/favicon.png",
+      "name": "Notebook",
+      "shortName": "Notebook",
+      "description": "A beautiful note-taking app with checklist support",
+      "themeColor": "#0f172a",
+      "backgroundColor": "#0f172a"
+    },
+    "plugins": [
+      "expo-font", 
+      "expo-sqlite",
+      "expo-local-authentication"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "3dada795-029e-4474-84f5-d3e156ac1ae1"
+      }
+    }
+  }
+}
